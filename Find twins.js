@@ -3,22 +3,28 @@ function elimination(arr){
   }
 
 
-  console.log(elimination([1,2,3,4,5,1]));
-  function elimination(arr) {
-    // Создаем пустое множество для хранения уникальных чисел
-    const seen = new Set();
+
+
+
+  
+
+
+//   console.log(elimination([1,2,3,4,5,1]));
+//   function elimination(arr) {
+//     // Создаем пустое множество для хранения уникальных чисел
+//     const seen = new Set();
     
-    // Перебираем все элементы массива
-    for (let num of arr) {
-      // Если число уже встречалось, это и есть наш дубликат
-      if (seen.has(num)) {
-        return num;
-      }
-      // Если числа еще не было, добавляем его в множество
-      seen.add(num);
-    }
+//     // Перебираем все элементы массива
+//     for (let num of arr) {
+//       // Если число уже встречалось, это и есть наш дубликат
+//       if (seen.has(num)) {
+//         return num;
+//       }
+//       // Если числа еще не было, добавляем его в множество
+//       seen.add(num);
+//     }
     
-    // Если не нашли дубликатов, возвращаем null
-    return null;
-  }
+//     // Если не нашли дубликатов, возвращаем null
+//     return null;
+//   }
   
