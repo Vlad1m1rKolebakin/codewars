@@ -18,7 +18,7 @@ let className = [
       return acc;
     }, {});
   
-    return Object.keys(Object.fromEntries(Object.entries(conutClassName).sort((a, b) => b[1] - a[1])));
+    return Object.keys(conutClassName).sort((a, b) => conutClassName[b] - conutClassName[a]);
   }
   
   console.log(unicClassNameSortArr(className));
